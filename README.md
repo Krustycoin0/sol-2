@@ -8,5 +8,5 @@
   - `npx browserslist@latest --update-db`
   - `sudo npm install -g serve`
   - `npm install --force @craco/craco --save`
-  - `npm run build` (If dependency errors arise, try skipping to the next step)
+  - `npm run build`
   - `serve -s build`
