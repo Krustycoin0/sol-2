@@ -1,7 +1,7 @@
 # How to Deploy
 
   - `git clone https://github.com/graceful-coder/Freqs-swap.git`
-  - `cd oyster-swap`
+  - `cd Freqs-swap`
   - `set SWAP_PROGRAM_OWNER_FEE_ADDRESS='Your Wallet`
   - `set SWAP_HOST_FEE_ADDRESS='Your Wallet`
   - `npx browserslist@latest --update-db`
