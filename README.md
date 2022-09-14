@@ -1,6 +1,6 @@
 # How to Deploy
 
-  - `git clone https://github.com/solana-labs/oyster-swap`
+  - `git clone https://github.com/graceful-coder/Freqs-swap.git`
   - `cd oyster-swap`
   - `set SWAP_PROGRAM_OWNER_FEE_ADDRESS='Your Wallet`
   - `set SWAP_HOST_FEE_ADDRESS='Your Wallet`
