@@ -8,7 +8,6 @@
   - `npx browserslist@latest --update-db`
   - `sudo npm install -g serve`
   - `npm install --force @craco/craco --save`
-  If any dependency issues arise, run:
-  - `npm install --legacy-peer-deps`
+  -  If any dependency issues arise, run: `npm install --legacy-peer-deps`
   - `npm run build`
   - `serve -s build`
