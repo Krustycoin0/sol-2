@@ -1,17 +1,13 @@
-const CracoLessPlugin = require("craco-less");
-
+// craco.config.js
 module.exports = {
-  plugins: [
-    {
-      plugin: CracoLessPlugin,
-      options: {
-        lessLoaderOptions: {
-          lessOptions: {
-            modifyVars: { "@primary-color": "#2abdd2" },
-            javascriptEnabled: true,
-          },
-        },
-      },
+  webpack: {
+    configure: (webpackConfig, { env, paths }) => {
+      // Aggiungi @solana/web3.js alla transpilazione di Babel
+      webpackConfig.module.rules[1].include = [
+        webpackConfig.module.rules[1].include,
+        /node_modules\/@solana\/web3\.js/,
+      ];
+      return webpackConfig;
     },
-  ],
+  },
 };
