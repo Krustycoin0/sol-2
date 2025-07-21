@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco --openssl-legacy-provider build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "localnet:update": "solana-localnet update",
@@ -69,6 +69,5 @@
     "arweave-deploy": "^1.9.1",
     "gh-pages": "^3.1.0",
     "prettier": "^2.1.2"
-"build": "craco --openssl-legacy-provider build"
   }
 }
